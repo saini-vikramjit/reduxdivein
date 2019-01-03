@@ -30,3 +30,12 @@
     transform: rotate(360deg);
   }
 }
+
+.default-btn {
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  width: 100px;
+  background-color: floralwhite;
+  font-size: small;
+}
