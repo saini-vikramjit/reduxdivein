@@ -12,6 +12,9 @@ export default (state, action) => {
 
         case "ERROR":
             throw new Error(`Something went wrong`);
+        
+        case "UPDATE_FROM_SERVER":
+            return state;
 
         default:
             return state;
